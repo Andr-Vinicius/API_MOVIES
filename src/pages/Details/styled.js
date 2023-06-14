@@ -37,5 +37,20 @@ export const Container = styled.div`
         opacity: 0.5;
     }
 
+    button{
+        border-radius: 1rem;
+        margin-top: 1rem;
+        background-color: aliceblue;
+        cursor: pointer;
+        padding: 0.8rem 2rem;
+        transition: all 0.2s;
+        font-size: 90%;
+    }
+
+    button:hover{
+        background-color: #A67F68;
+        color: white;
+    }
+
 
 `
